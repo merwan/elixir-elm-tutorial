@@ -11,3 +11,5 @@ RUN mix deps.get
 
 COPY . .
 RUN cd assets && npm install && node node_modules/brunch/bin/brunch build
+
+CMD ["mix phx.server"]

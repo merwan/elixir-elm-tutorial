@@ -54,5 +54,5 @@ config :platform, Platform.Repo,
   username: "postgres",
   password: "postgres",
   database: "platform_dev",
-  hostname: "localhost",
+  hostname: "db",
   pool_size: 10
